@@ -1,0 +1,233 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - okay
+    - ok
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: arduinos_trial
+  examples: |
+    - what is arduino trial event?
+    - arduino trail
+    - trail arduino
+
+- intent: circuital_dilemma
+  examples: |
+    - what is circuital dilemma event?
+    - circuital dilemma
+    - dilemma circuital
+
+- intent: fizzbuzz
+  examples: |
+    - what is fizzbuzz event?
+    - fizz event buzz
+    - buzz
+
+- intent: hackoverflow
+  examples: |
+    - what is hackoverflow event?
+    - hackoverflow
+    - hack event
+
+- intent: pandoras_box_ctf
+  examples: |
+    - what is pandoras box ctf event?
+    - pandoras
+    - box
+    - ctf
+
+- intent: unite_for_unity
+  examples: |
+    - what is unite for unity event?
+    - unite
+    - unity event
+
+- intent: frame_the_crane
+  examples: |
+    - what is frame the crane event?
+    - frame
+    - crane
+
+- intent: cool_your_engine
+  examples: |
+    - what is cool your engine event?
+    - cool engine
+    - engine
+
+- intent: fiducia
+  examples: |
+    - what is fiducia event?
+    - fiducia
+    - fiducia event
+
+- intent: take_charge
+  examples: |
+    - what is take charge event?
+    - take
+    - charge
+
+- intent: chit_chat_with_chat_bot
+  examples: |
+    - what is chit chat with chat bot event?
+    - chit 
+    - chat
+    - chat bot
+    - bot
+
+- intent: pythonize_everything
+  examples: |
+    - what is pythonize everything event?
+    - pythonize
+    - everything
+
+- intent: ar_and_vr
+  examples: |
+    - what is ar and vr event?
+    - AR
+    - VR
+    - ar vr
+
+- intent: iceev_hybrid
+  examples: |
+    - what is iceev hybrid event?
+    - iceev
+    - hybrid
+
+- intent: Cyber_expert
+  examples: |
+    - what is Cyber expert event?
+    - Cyber
+    - expert
+
+- intent: RC_car
+  examples: |
+    - What are the features of this RC car developed by students of IIT Goa in the robotics exhibition ?
+    - robotics exhibition
+    - features of this RC car
+    - developed by students of IIT Goa
+
+- intent: techfest
+  examples: |
+    - Which edition of IIT Goa’s techfest is this one ?
+    - IIT goa techfest
+    - techfest
+
+- intent: AR/VR
+  examples: |
+    - What are the events related to AR/VR in this techfest ?
+    - events related to AR/VR
+    - ar/vr
+
+- intent: speakers
+  examples: |
+    - Who are the noted speakers giving talks in this techfest ?
+    - noted speakers
+    - giving talks
+
+- intent: technical_topic
+  examples: |
+    - What is ROS ?
+    - What is AR/VR ?
+    - What is
+    - tell me about 
+
+- intent: Answers
+  examples: |
+    - ROS
+    - AR/VR
+
+
+
+
+
+
+    

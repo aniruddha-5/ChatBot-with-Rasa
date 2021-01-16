@@ -1,0 +1,274 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: happy path short1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: arduinos_trial
+  - action: utter_arduinos_trial
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: circuital_dilemma
+  - action: utter_circuital_dilemma
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fizzbuzz
+  - action: utter_fizzbuzz
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hackoverflow
+  - action: utter_hackoverflow
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pandoras_box_ctf
+  - action: utter_pandoras_box_ctf
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: unite_for_unity
+  - action: utter_unite_for_unity
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: frame_the_crane
+  - action: utter_frame_the_crane
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cool_your_engine
+  - action: utter_cool_your_engine
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fiducia
+  - action: utter_fiducia
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short10
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: take_charge
+  - action: utter_take_charge
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short11
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chit_chat_with_chat_bot
+  - action: utter_chit_chat_with_chat_bot
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short12
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pythonize_everything
+  - action: utter_pythonize_everything
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short13
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ar_and_vr
+  - action: utter_ar_and_vr
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short14
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: iceev_hybrid
+  - action: utter_iceev_hybrid
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short15
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Cyber_expert
+  - action: utter_Cyber_expert
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short16
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: RC_car
+  - action: utter_RC_car
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short17
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: techfest
+  - action: utter_techfest
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short18
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: AR/VR
+  - action: utter_AR/VR
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short19
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: speakers
+  - action: utter_speakers
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path short20
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: technical_topic
+  - action: utter_technical_topic
+  - intent: Answers
+  - action: action_your_ans
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: happy path long
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chit_chat_with_chat_bot
+  - action: utter_chit_chat_with_chat_bot
+  - intent: techfest
+  - action: utter_techfest
+  - intent: AR/VR
+  - action: utter_AR/VR
+  - intent: speakers
+  - action: utter_speakers
+  - intent: technical_topic
+  - action: utter_technical_topic
+  - intent: Answers
+  - action: action_your_ans
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
